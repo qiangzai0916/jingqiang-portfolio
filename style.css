@@ -14,3 +14,4 @@
 /* Compact work feed; collection folder cards keep their existing layout. */
 @media(min-width:1001px){.project-grid:not(.folder-grid){grid-template-columns:repeat(4,minmax(0,1fr));gap:26px 18px}.project-grid:not(.folder-grid) .project-caption h3{font-size:15px}}
 .project-grid:not(.folder-grid){display:grid}.project-grid:not(.folder-grid)>.project{grid-column:auto;margin-bottom:0}
+.project-grid:not(.folder-grid)>.project .project-visual{aspect-ratio:16/9}
